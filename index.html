@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Energia Eólica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Energia Eólica</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre a Energia Eólica</a></li>
+            <li><a href="#jogo">Jogo Educacional</a></li>
+            <li><a href="#ranking">Ranking</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="inicio">
+            <h2>Bem-vindo ao Site de Energia Eólica</h2>
+            <p>Explore e aprenda mais sobre energia eólica de forma interativa!</p>
+        </section>
+        <section id="sobre">
+            <h2>O que é Energia Eólica?</h2>
+            <p>A energia eólica converte a energia do vento em eletricidade usando turbinas com hélices que giram para acionar um gerador. É uma das formas mais antigas de aproveitamento de energia, usada desde a antiguidade para mover barcos e moer grãos.</p>
+        </section>
+        <section id="jogo">
+            <h2>Jogo Educacional</h2>
+            <div id="quiz-container">
+                <p id="question"></p>
+                <button class="answer" onclick="checkAnswer(this)">Resposta 1</button>
+                <button class="answer" onclick="checkAnswer(this)">Resposta 2</button>
+                <button class="answer" onclick="checkAnswer(this)">Resposta 3</button>
+                <button class="answer" onclick="checkAnswer(this)">Resposta 4</button>
+            </div>
+        </section>
+        <section id="ranking">
+            <h2>Ranking dos Alunos</h2>
+            <div id="ranking-container"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
